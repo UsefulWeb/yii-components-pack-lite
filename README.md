@@ -7,11 +7,17 @@ You don't need to use controller actions at many cases with this components.
 
 This project need giix extension
 
-1. How to Configure
+### Requirements
 
-place this project into ext
+1. Yii 1 ( http://www.yiiframework.com/ )
+2. giix extension ( http://www.yiiframework.com/extension/giix/ )
 
-main.php
+
+### How to Configure
+
+Copy `components` folder to `/protected/extensions/`.
+Update your config (usually `main.php`) like
+
 ```PHP
 'import'=>array(
     ...
